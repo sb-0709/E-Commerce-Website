@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/login_style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="home.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search for products, brands and more" >
+                <button class=btn1>Search</button>
+                <button class=btn2><a href="Login.html">Login</a></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="class">
+            <h2>
+                Login
+            </h2>
+            <hr>
+            <form method="post" onclick="ValidateEmail(document.getElementById('emailId'))">
+                
+                <div class="container">
+                    <label for="username"><b>Email</b></label>
+                    <input type="text" placeholder="Please enter your email" name="emailId" id = "emailId" required>
+        
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Please enter password" name="password" id="password" required>
+                        
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>
+            Copyright &copy; Flipcart.com
+        </p>
+    </footer> 
+</body>
+</html>
