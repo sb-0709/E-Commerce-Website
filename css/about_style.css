@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 52px;
+    background-color: #2874f0;
+    position: relative;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    width: 90px;
+    padding: 0 25px;
+}
+.logo a img:hover{
+    width: 95px;
+    height: 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li a:hover{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 22px;
+    margin : 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button a{
+    text-decoration: none;
+}
+.btn1{
+    color: white;
+    padding: 5px 8px;
+    background-color: #277aff;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+}
+.btn1:hover{
+    background-color: rgba(240, 248, 255, 0.698);
+    font-weight: 900px;
+}
+.btn2{
+    background-color: white;
+    color: #2874f0;
+    font-family: 'Lato', sans-serif;
+    padding: 8px 27px;
+    margin: 0 0 0 157px;
+    border-style: none;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: aliceblue;
+}
+main{
+    background-color: rgb(242, 180, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    background-color: rgba(255, 255, 255, 0.625);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.img1{
+    width: 700px;
+    height: 440px;
+}
+.img2{
+    width: 750px;
+    height: 440px;
+}
+.img3{
+    width: 95vw;
+    height: 440px;
+}
+.img4{
+    width: 600px;
+    height: 460px;
+}
+footer{
+    height: 12vh;
+    background-color: #2874f0;;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

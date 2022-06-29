@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("D:/frontend projects/ecommerce website/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.class{
+    background-color: #dadada2a;
+    width:40vw;
+    height: 40vh;
+    margin: 165px 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 10px 18px #153057b2;
+}
+.logo img{
+    width: 350px;
+}
+.logo img:hover{
+    width: 400px;
+}
+.logo h2{
+    color: rgba(255, 240, 24, 0.901);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+.logo p{
+    color: rgba(255, 240, 24, 0.901);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+}

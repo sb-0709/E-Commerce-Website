@@ -1,0 +1,130 @@
+/*this css is used once*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 52px;
+    background-color: #2874f0;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    width: 90px;
+    padding: 0 25px;
+}
+.logo a img:hover{
+    width: 95px;
+    height: 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li a:hover{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 22px;
+    margin : 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button a{
+    text-decoration: none;
+}
+.btn1{
+    color: white;
+    padding: 5px 8px;
+    background-color: #277aff;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+}
+.btn1:hover{
+    background-color: rgba(240, 248, 255, 0.698);
+    font-weight: 900px;
+}
+.btn2{
+    background-color: white;
+    color: #2874f0;
+    font-family: 'Lato', sans-serif;
+    padding: 8px 27px;
+    margin: 0 0 0 157px;
+    border-style: none;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: aliceblue;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+.container{
+    min-height: calc(100vh - 12vh - 52px);
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.slider img{
+    width: 1000px;
+    height: 300px;
+}
+.card{
+    background-color: white;
+    max-width: 95vw;
+    margin: 24px auto 20px auto;
+}
+.card-2{
+    display: flex;
+    margin: 24px auto 20px auto;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.card-items{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+.card-items img{
+    height: 110px;
+    width: 135px;
+}
+
+footer{
+    height: 12vh;
+    background-color: #2874f0;;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

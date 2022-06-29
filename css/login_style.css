@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 52px;
+    background-color: #2874f0;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    width: 90px;
+    padding: 0 25px;
+}
+.logo a img:hover{
+    width: 95px;
+    height: 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li a:hover{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 22px;
+    margin : 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button a{
+    text-decoration: none;
+}
+.btn1{
+    color: white;
+    padding: 5px 8px;
+    background-color: #277aff;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+}
+.btn1:hover{
+    background-color: rgba(240, 248, 255, 0.698);
+    font-weight: 900px;
+}
+.btn2{
+    background-color: white;
+    color: #2874f0;
+    font-family: 'Lato', sans-serif;
+    padding: 8px 27px;
+    margin: 0 0 0 157px;
+    border-style: none;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: aliceblue;
+}
+body{
+    background-color: rgb(244, 244, 244);
+}
+main{
+    min-height: calc(100vh - 12vh - 52px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class{
+    width: 445px;
+    height: 310px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    flex-direction: column;
+    background-color: #2875f091;
+    box-shadow: 5px 10px 18px #888888;
+}
+.class h2{
+    margin: 10px 0 10px 20px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 60px 10px 20px;
+}
+.container label{
+    margin: 10px 0;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.container input{
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.container button{
+    margin: 40px 135px 20px 135px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #00000080;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 2px;
+}
+.container button:hover{
+    cursor: pointer;
+    height:45px;
+    width:100px;
+}
+footer{
+    height: 12vh;
+    background-color: #2874f0;;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
